@@ -1,0 +1,103 @@
+html,body{
+    height:100%;
+    background:#191919;
+}
+.banner{
+    width:100%; 
+    height:25%;
+    background: url('../images/8.png') no-repeat center 0;
+    background-size:cover;
+}
+.boxList{
+    height:63.5%;
+    padding:10px;
+    column-count:2;
+    -webkit-column-count:2;
+    column-gap: 10px;
+    font-family: 黑体,arial;
+}
+.boxList li{
+    margin-bottom:5px;
+    line-height: 30px;
+    text-indent: 10px;
+    color:#fff;
+}
+.boxList li:nth-child(1){
+    background: #ef6d6d url('../images/9.png') no-repeat 70% 60%;
+    background-size:30%;
+    height:25%;
+}
+.boxList li:nth-child(2){
+    background: #284a9f url('../images/12.png') no-repeat 55% 55%;
+    background-size: 30%;
+    height:45%;
+}
+.boxList li:nth-child(3){
+    background: #1bc25a url('../images/15.png') no-repeat 55% 55%;
+    background-size: 30%;
+    height:25%;
+
+
+}
+.boxList li:nth-child(4){
+    background: #f8ad37 url('../images/11.png') no-repeat 80% 50%;
+    background-size: 25%;
+    height:20%;
+}
+.boxList .d{
+    padding-top:20px;
+}
+.boxList li:nth-child(5){
+    background: #8220d5 url('../images/13.png') no-repeat 20% 50%;
+    background-size: 20%;
+    height:20%;
+}
+.boxList  .e{
+    float:right;
+    padding:20px 10px 0 0;
+}
+.boxList li:nth-child(6){
+    background: #24ab87 url('../images/14.png') no-repeat 80% 50%;
+    background-size: 20%;
+    height:20%;
+}
+.boxList .f{
+    padding-top:20px;
+}
+.boxList li:nth-child(7){
+    background: #33c0f4 url('../images/16.png') no-repeat 50% 50%;
+    background-size: 17%;
+    height:33.5%;
+}
+
+ .foot{
+  width:100%;
+  height:7%;
+  text-align: center;
+  font-family:黑体,arial;
+  color: #000000;
+  text-shadow: 1px 1px 2px #fff;
+}
+ .foot h4{
+  font-size: 16px;
+  line-height:20px;
+}
+ .foot p{
+  font-size: 11px;
+}
+
+/* @media screen and (max-height:490px){
+   .boxList{
+        height:240px;
+   } 
+}
+@media screen and (min-height:666px){
+   .boxList{
+        height:430px;
+   } 
+}
+@media screen and (min-height:1023px){
+   .boxList{
+        height:800px;
+   } 
+} */

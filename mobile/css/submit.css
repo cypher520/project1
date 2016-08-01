@@ -1,0 +1,161 @@
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+.beijing{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display:none;
+}
+
+/*提交成功弹窗*/
+.Popup{
+    width:82%;
+    height:55%;
+    position: absolute;
+    background:#ffebd5 url("../images/12.png") no-repeat center 0;
+    background-size: 60%;
+    left:9%;
+    top:22.5%;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+    display: none;
+}
+.show{
+    display: block;
+}
+.Popup .guanbi{
+    width:20px;
+    height:20px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+    background: #d2bba1 url('../images/17.png') no-repeat 50% 50%;
+    background-size: 30%;
+    position: absolute;
+    left:4%;
+    top:4%;
+}
+.Popup p{
+    padding-top: 53%;
+    line-height: 30px;
+    font-size: 24px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #86563f;
+}
+.Popup span{
+    font-size: 18px;
+    text-align: center;
+}
+.Popup .botton{
+    width:100%;
+    height:20%;
+    background: url("../images/10.png") no-repeat  center 0;
+    background-size:80%;
+    text-align: center;
+    color: #8e481e;
+    font-size: 24px;
+    margin-top: 5%;
+    padding-top: 4%;
+    font-family: "微软雅黑";
+}
+
+
+#head{
+    width: 100%;
+    height: 22%;
+}
+#head h1{
+    padding-top: 20px;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    text-align: center;
+}
+#head h1 span{
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: url("../images/20.png");
+    background-size: cover;
+    display: block;
+    margin-right: 20px ;
+}
+#head p{
+    padding-top: 20px;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    text-indent: 5%;
+    line-height: 30px;
+}
+#head h3{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    text-indent: 5%;
+}
+
+ #information{
+
+    width: 100%;
+    height:50%;
+}
+ #information  li{
+    font-size:20px ;
+    width: 90%;
+    height: 20%;
+    margin: 3px auto;
+     background: url("../images/29.png") no-repeat 0 26px;
+     background-size: 100%;
+}
+ #information  li h3{
+    font-size:12px ;
+    color: red;
+     line-height: 20px;
+}
+#information  li form  input{
+    width: 100%;
+    height: 60%;
+    color: #a3a3a3;
+    border: 0;
+    font-size:20px ;
+    line-height: 30px;
+    font-family: 微软雅黑;
+}
+ #information  li .pic{
+    background: url("../images/21.jpg") no-repeat  90% 10%;
+}
+ #information li p{
+    padding-top: 2px;
+    font-family: 微软雅黑;
+    font-size:12px ;
+    color: #a3a3a3;
+}
+.gh{
+    width: 100%;
+    height: 18%;
+    margin-top: 8%;
+}
+.gh  p{
+    background: #ffeed9;
+    width: 60px;
+    height: 60px;
+    color: #ff6c00;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    border: 2px solid #ffbd68;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    z-index: 101;
+    cursor: pointer;
+}
+.yes{
+
+}

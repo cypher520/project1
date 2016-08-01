@@ -1,0 +1,531 @@
+html,body{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.beijing{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	z-index: 100;
+}
+.top{
+	width:100%;
+	height:4%;
+	padding-top:1%;
+	background: url("../images/1.png") no-repeat center 10px;
+	background-size: 90%;
+}
+.content{
+	width:100%;
+	height:68%;
+	background: url("../images/2.png") no-repeat  center 0;
+	background-size:90%;
+	position: relative;
+}
+.content .guanbi{
+	width:30px;
+	height:30px;
+	-moz-border-radius:15px;
+	-webkit-border-radius: 15px;
+	border-radius:15px;
+	background: #d2bba1 url('../images/17.png') no-repeat 50% 50%;
+	background-size: 50%;
+	margin-left:3%;
+}
+.content .pic1{
+	width:40%;
+	height:25%;
+	background: url("../images/3.png") no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left:10%;
+	top:57%;
+}
+.content .pic1:active{
+	width:42%;
+	height:26.5%;
+	-webkit-transform:scale(1.05,1.05);
+	-moz-transform:scale(1.05,1.05);
+	-transform:scale(1.05,1.05);
+}
+.content .pic2{
+	width:40%;
+	height:25%;
+	background: url("../images/4.png") no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left:50%;
+	top:55%;
+}
+.content .pic2:active{
+	width:42%;
+	height:26.5%;
+	-webkit-transform:scale(1.05,1.05);
+	-moz-transform:scale(1.05,1.05);
+	-transform:scale(1.05,1.05);
+}
+.content .but{
+	width:85%;
+	height:18%;
+	background: url("../images/5.png") no-repeat;
+	background-size:100%;
+	position: absolute;
+	left:7.5%;
+	top:72%;
+}
+.content .but p {
+	color: #fff;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	width:45%;
+	height:100%;
+}
+.content .but p span{
+	font-size: 14px;
+
+}
+.content .but a{
+	display: block;
+	width:100%;
+	height:100%;
+	color: #fff;
+	margin-top: 13%;
+	text-align: center;
+
+}
+.content .but p.content_left{
+    float:left;
+	margin-right: 4%;
+}
+.content .but p.content_right{
+	float:left;
+}
+#botton{
+	width:100%;
+	height:10%;
+	background: url("../images/10.png") no-repeat  center 0;
+	background-size:80%;
+	text-align: center;
+	color: #8e481e;
+	font-size: 24px;
+	padding-top: 5%;
+	font-family: "微软雅黑";
+	overflow: hidden;
+    z-index: 101;
+}
+.guize p{
+	text-align: center;
+	color: #955200;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-decoration:underline;
+	z-index: 101;
+}
+.footer{
+	text-align: center;
+	color: #9e9990;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	margin-top: 10%;
+}
+
+ul>li{
+	display: none;
+}
+.show{
+	display: block;
+}
+ul li.Popup1{
+	position: absolute;
+	width:82%;
+	height:50%;
+	background:#ffebd5 url("../images/11.png") no-repeat center 0;
+	background-size: 60%;
+	font-family: "微软雅黑";
+	color: #86563f;
+	left:9%;
+	top:22.5%;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+    z-index: 101;
+}
+ul li.Popup1 .guanbi{
+	width:20px;
+	height:20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	background: #d2bba1 url('../images/17.png') no-repeat 50% 50%;
+	background-size: 30%;
+	position: absolute;
+	left:4%;
+	top:4%;
+	z-index: 101;
+}
+ul li.Popup1 h3{
+	margin-top: 15%;
+	font-size: 20px;
+	color: #86563f;
+	text-align: center;
+	padding: 0 10px;
+}
+ul li.Popup1 p{
+	line-height: 24px;
+	font-size: 14px;
+	padding: 0 10px;
+}
+ul li.Popup2{
+	width:82%;
+	height:50%;
+	position: absolute;
+	background:#ffebd5 url("../images/12.png") no-repeat center 0;
+	background-size: 60%;
+	left:9%;
+	top:22.5%;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+}
+ul li.Popup2 .guanbi{
+	width:20px;
+	height:20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	background: #d2bba1 url('../images/17.png') no-repeat 50% 50%;
+	background-size: 30%;
+	position: absolute;
+	left:4%;
+	top:4%;
+}
+ul li.Popup2 p{
+	padding-top: 55%;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #86563f;
+
+}
+ul li.Popup2 .botton{
+	width:100%;
+	height:20%;
+	background: url("../images/10.png") no-repeat  center 0;
+	background-size:80%;
+	text-align: center;
+	color: #8e481e;
+	font-size: 24px;
+	margin-top: 5%;
+	font-family: "微软雅黑";
+}
+ul li.Popup3{
+	width:82%;
+	height:60%;
+	/*background:#ffebd5;*/
+	position: absolute;
+	left:9%;
+	top:18%;
+
+}
+ul li.Popup3 .guanbi{
+	width:20px;
+	height:20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	background: #d2bba1 url('../images/17.png') no-repeat 50% 50%;
+	background-size: 30%;
+	position: absolute;
+	left:4%;
+	top:4%;
+}
+ul li.Popup3 .top {
+	width:100%;
+	height:70%;
+	background:#ffebd5;
+	background:#ffebd5 url("../images/9.png") no-repeat center 0;
+	background-size: 55%;
+	-moz-border-radius:10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius:10px 10px 0px 0px;
+}
+ul li.Popup3 .top p{
+	padding-top: 45%;
+	/*line-height: 30px;*/
+	font-size: 24px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #86563f;
+}
+ul li.Popup3 .top p span{
+	font-size: 18px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+ul li.Popup3 .top .lingqu{
+	width:100%;
+	height:15%;
+	margin-top: 5%;
+	background: url("../images/10.png") no-repeat  center 0;
+	background-size:80%;
+	text-align: center;
+	color: #8e481e;
+	font-size: 24px;
+	padding-top: 5%;
+	font-family: "微软雅黑";
+}
+
+ul li.Popup3 .bottom {
+	width:100%;
+	height:30%;
+	background:#f1d8bc;
+	-moz-border-radius:0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius:0px 0px 10px 10px;
+}
+ul li.Popup3 p{
+	padding-top: 5%;
+	font-size: 14px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #8e481e;
+}
+ul li.Popup3 .botton{
+	width:50%;
+	height:30%;
+	background: #ff9600  center center;
+	text-align: center;
+	margin: 5% auto 0;
+	-moz-border-radius:20px;
+	-webkit-border-radius: 20px;
+	border-radius:20px;
+}
+ul li.Popup4{
+	width:82%;
+	height:50%;
+	position: absolute;
+	background:#ffebd5 url("../images/12.png") no-repeat center 0;
+	background-size: 60%;
+	left:9%;
+	top:22.5%;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+}
+ul li.Popup4 .guanbi{
+	width:20px;
+	height:20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	background: #d2bba1 url('../images/17.png') no-repeat 50% 50%;
+	background-size: 30%;
+	position: absolute;
+	left:4%;
+	top:4%;
+}
+ul li.Popup4 p{
+	padding-top: 53%;
+	line-height: 30px;
+	font-size: 24px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #86563f;
+}
+ul li.Popup4 span{
+	font-size: 18px;
+	text-align: center;
+}
+ul li.Popup4 .botton{
+	width:100%;
+	height:20%;
+	background: url("../images/10.png") no-repeat  center 0;
+	background-size:80%;
+	text-align: center;
+	color: #8e481e;
+	font-size: 24px;
+	margin-top: 5%;
+	font-family: "微软雅黑";
+}
+ul li.Popup5{
+	width:82%;
+	height:60%;
+	position: absolute;
+	background:#ffebd5 url("../images/13.png") no-repeat center 0;
+	background-size: 60%;
+	left:9%;
+	top:19%;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	z-index: 101;
+}
+ul li.Popup5 .guanbi{
+	width:20px;
+	height:20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	background: #d2bba1 url('../images/17.png') no-repeat 50% 50%;
+	background-size: 30%;
+	position: absolute;
+	left:4%;
+	top:4%;
+}
+ul li.Popup5 h3{
+	padding-top: 55%;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #86563f;
+}
+ul li.Popup5 h4{
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #86563f;
+}
+ul li.Popup5 P{
+	margin-top: 7%;
+	font-size: 16px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #86563f;
+}
+ul li.Popup span{
+	font-size: 18px;
+	text-align: center;
+}
+ul li.Popup5 .botton{
+	width:100%;
+	height:20%;
+	background: url("../images/10.png") no-repeat  center 0;
+	background-size:80%;
+	text-align: center;
+	color: #8e481e;
+	font-size: 20px;
+	padding-top: 5%;
+	margin-top: 5%;
+	font-family: "微软雅黑";
+}
+ul li.Popup6{
+	width:82%;
+	height:52%;
+	position: absolute;
+	background:#ffebd5 url("../images/19.png") no-repeat center 0;
+	background-size: 60%;
+	left:9%;
+	top:22.5%;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	z-index: 101;
+}
+ul li.Popup6 .guanbi{
+	width:20px;
+	height:20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	background: #d2bba1 url('../images/17.png') no-repeat 50% 50%;
+	background-size: 30%;
+	position: absolute;
+	left:4%;
+	top:4%;
+}
+ul li.Popup6 p{
+	padding-top: 60%;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #86563f;
+}
+ul li.Popup6 span{
+	font-size: 18px;
+	text-align: center;
+}
+ul li.Popup6 .botton{
+	width:100%;
+	height:20%;
+	background: url("../images/10.png") no-repeat  center 0;
+	background-size:80%;
+	text-align: center;
+	color: #8e481e;
+	font-size: 20px;
+	padding-top: 5%;
+	font-family: "微软雅黑";
+}
+ul li.Popup7{
+	width:82%;
+	height:50%;
+	position: absolute;
+	background:#ffebd5 url("../images/13.png") no-repeat center 0;
+	background-size: 60%;
+	left:9%;
+	top:22.5%;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+}
+ul li.Popup7 .guanbi{
+	width:20px;
+	height:20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	background: #d2bba1 url('../images/17.png') no-repeat 50% 50%;
+	background-size: 30%;
+	position: absolute;
+	left:4%;
+	top:4%;
+}
+ul li.Popup7 p{
+	padding-top: 55%;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #86563f;
+}
+ul li.Popup7 span{
+	font-size: 18px;
+	text-align: center;
+}
+ul li.Popup7 .botton{
+	width:100%;
+	height:20%;
+	background: url("../images/10.png") no-repeat  center 0;
+	background-size:80%;
+	text-align: center;
+	color: #8e481e;
+	font-size: 20px;
+	margin-top: 5%;
+	font-family: "微软雅黑";
+}
+@media screen and (max-height:490px){
+	.content{
+		width:100%;
+		height:68%;
+		background: url("../images/2.png") no-repeat  center 0;
+		background-size:77%;
+		position: relative;
+	}
+	ul li.Popup1{
+		height: 60%;
+	}
+}
+@media screen and (min-height:600px) and (max-height:700px){
+	ul li.Popup1{
+		height: 45%;
+	}
+
+}

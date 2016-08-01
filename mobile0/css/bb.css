@@ -1,0 +1,145 @@
+#top {
+	height:790px;
+	width:100%;
+	background:url("../images/3.png") no-repeat 0 ;
+	margin: 0 auto;  
+}
+#top .top_one{
+	height:120px;
+}
+#top .top_one .logo{
+    float:left;	
+	margin: 20px 0 0 15px;
+}
+
+#top .top_one .top_link {
+   
+	padding: 50px 23px 0 0;
+}
+
+#top .top_one .top_link a{
+	float:right;
+	padding: 0  14px;
+	color: #fff;
+	font-size: 20px
+}
+#top .a {
+	margin:200px 0 0 0;
+	text-align:center;
+}
+#top .a h3{
+	font-size:60px;
+    color:#fff;
+}
+.color{
+	color:red;
+}
+#top .a p{
+	color:#fff;
+	margin: 30px  auto;
+}
+
+#top .top_two{
+	margin:200px 50%; 
+    position:absolute;
+}
+#center{
+	height:900px;
+	width:100%;
+	background:#fff;
+	margin:0 auto; 
+
+}
+#center .center_one{
+	height:900px;
+	float:left;
+}
+#center .center_one .tupian{
+	height:470px;
+	width:640px;
+	background: url("../images/5.png") no-repeat -200px  -1px;
+	margin: 226px 0 ;
+
+}
+#center .center_two{
+	height:300px;
+	float:left;
+
+}
+#center .center_two .b{
+	color:#ccc;
+	font-size:70px;
+	margin:240px 0 0 50px;
+}
+#center .center_two .b .a,ins{
+	font-weight: 900;
+	color:#000;
+}
+#center .center_three{
+	height:300px;
+	width:700px;
+	margin:70px 0 0 50px;
+}
+
+#center .center_three .center_link  li{
+	width:300px;
+	height:120px;
+	float:left;
+}
+#center .center_three .center_link .tupian {
+	float:left;
+    width:50px;
+    height:30px;
+    margin:10px 0 0 0;
+}
+#center .center_three .center_link .weizi{
+	width:250px;
+   float:left;
+}
+#center .center_three .center_link .weizi h4{
+	color: #ccc;
+    font-size:30px;
+
+
+}
+#center .center_three .center_link .weizi span{
+    color: #000;
+    font-weight:700; 
+    font-size:30px; 
+}
+#center .center_three .center_link .weizi p{
+	color: #ccc;
+	 font-size:14px; 
+}
+#three{
+	width:100%;
+	height:800px;
+}
+#three li{
+	float:left;	
+}
+#three .width25{
+     width:25%;
+     height:50%;
+}
+#three .width50{
+	width:50%;
+	height:50%;
+}
+#three .width15{
+	width:50%;
+	height:15%;
+	padding: 0 auto ;
+	margin: -2px 0 0 0;
+	
+}
+#three .width35{
+	width:50%;
+	height:35%;
+}
+
+#three  img{
+	width:100%;
+	height:100%;
+	
+}

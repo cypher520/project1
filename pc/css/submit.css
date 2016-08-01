@@ -1,0 +1,493 @@
+/* 首页样式 */
+
+/* 头部样式 */
+
+	header{
+		width: 100%;
+		height: 35px;
+		background: #323232;
+	}
+	.box{
+		position: relative;
+		width: 1100px;
+		margin:0 auto;
+	}
+	.box .left{
+		z-index: 10;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.box .right{
+		float: right;
+	}
+	.box .left .logo{
+		padding-top:73px; 
+		padding-left: 6px;
+		text-align: center;
+		letter-spacing: 2px;
+		font-family: '宋体';
+		font-size: 10px;
+		color: #ffac94;
+		background: #dd4012 url(../images/submit/logo.png) no-repeat 10px 30px;
+		width: 174px;
+		height: 42px;
+	}
+
+	.box .list{
+		float: left;
+		line-height: 35px;
+		margin-left: 200px;
+	}
+	.box .list li{
+		float: left;
+		padding:0 15px;
+	}
+	.box .list li:nth-child(5){
+		background: #dd4012;
+	}
+	.box .list li:nth-child(5) a{
+		color: #fff;
+	}
+	.box .list li a{
+		color: #a6a6a6;
+	}
+	.box .list li a:hover{
+		color: #fff;
+		text-decoration: underline;
+	}
+	.box .list li:nth-child(5) a:hover{
+		color: #021312;
+		font-weight: bold;
+		text-decoration: underline;
+
+	}
+
+
+
+	.box .right>li{
+		height: 35px;
+		line-height: 35px;
+		float: right;
+
+	}
+	.box .right .tel{
+		width: 112px;
+		text-align: right;
+		padding-right: 5px;
+		background: url(../images/resource/tel.png) no-repeat 0 9px;
+
+	}
+	.box .right>li ul{
+		height: 35px;
+		background: #none;
+		padding-right: 5px;
+	}
+	.box .right>li ul:hover{
+		background:#fff;
+	}
+	.box .right>li ul li{
+		padding-top: 5px;
+		float: left;
+		padding-left:18px;
+	}
+
+/* 主题部分 */
+	.main{
+		background: #f0f1f1;
+		width: 100%;
+		background: #f0f1f1;
+
+	}
+/* banner */
+ 	.main .banner{
+ 		width: 100%;
+ 		height: 224px;
+ 		background: url(../images/submit/banner.jpg) no-repeat 0 0;
+ 		background-size:100% 224px cover ;
+ 		position: relative;
+
+ 	}
+
+
+ 	/* banner底部的阴影 */
+ 	.main .banner .shadow{
+ 		position: absolute;
+ 		bottom: 0;
+ 		width: 100%;
+ 		height: 30px;
+ 		line-height: 30px;
+ 		color: #fff;
+ 		background: rgba(0,0,0,0.5);
+
+ 	}
+ 	.main .banner .shadow div{
+ 		width: 1100px;
+ 		margin:0 auto;
+ 	}
+ 	.main .banner .shadow div a{
+ 		color: #fff;
+ 	}
+ 	.main .banner .shadow div a:hover{
+ 		color: #99b4ec;
+ 	}
+
+ 	.main .banner .shadow div span:hover{
+ 		cursor: pointer;
+ 		color: #99b4ec;
+ 	}
+
+/* 内容 */
+	.main .top{
+		width: 100%;
+		padding-top:30px;
+		text-align: center;
+	}
+	.main .top h1{
+		font-size: 44px;
+		font-family: "微软雅黑", arial;
+		font-weight: bold;
+		color: #b3b3b3;
+	}
+	.main .top h2{
+		font-size: 26px;
+		font-family: "微软雅黑", arial;
+		line-height: 50px;
+		color: #666;
+	}
+
+
+	/* 详细信息 */
+		.main .content{
+			width: 1100px;
+			margin:0 auto;
+		}
+		.main .content>li{
+			width: 530px;
+		}
+		.main .content>li h3{
+			font-size: 16px;
+			color: #333;
+			font-weight: 700;
+			font-family: "微软雅黑";
+			line-height: 65px;
+		}
+		.main .content .left{
+			float: left;
+		}
+		.main .content .left ul li{
+			width:252px;
+			float: left;
+		}
+		.main .content .left ul li input{
+			width: 234px;
+			border:2px solid #f0f1f1;
+			background: #dbdde1;
+			height: 40px;
+			line-height: 40px;
+			padding-left: 18px;
+			margin-bottom: 15px;
+			color: #666;
+			font-family: "微软雅黑";
+			outline: none;
+
+		}
+		.main .content .left ul li:nth-child(2n-1){
+			padding-right: 18px;
+		}
+		.main .content .right{
+			float: right;
+		}
+		.main .content .right textarea{
+			width: 530px;
+			height: 160px;
+			border:none;
+			border-top: 2px solid #f0f1f1;
+			background: #dbdde1;
+			resize: none;
+			color: #666;
+			font-family: "微软雅黑";
+			outline: none;
+		}
+
+		#budget{
+			border-radius: 5px;
+			position: relative;
+			margin-top: 35px;
+			margin-bottom: 30px;
+			width:530px;
+			height: 20px;
+			background: #d2d4d8;
+		}
+		#budget .show{
+			cursor: pointer;
+			height: 100%;
+			width:40px;
+			background: #dd4012;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+		#budget .price{
+			width: 80px;
+			height: 40px;
+			position: absolute;
+			top: -42px;
+			left: 0;
+			background: url(../images/submit/proTime.png) no-repeat 0 0;
+			background-size: 80px 40px; 
+			font-size: 20px;
+			color: #fff;
+			text-align: center;
+			line-height: 30px;
+		}
+		#proTime{
+			border-radius: 5px;
+			position: relative;
+			margin-top: 53px;
+			width:530px;
+			height: 20px;
+			background: #d2d4d8;
+		}
+		#proTime .show{
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+			cursor: pointer;
+			height: 100%;
+			width:40px;
+			background: #dd4012;
+		}
+		#proTime .time{
+			width: 80px;
+			height: 40px;
+			position: absolute;
+			top: -42px;
+			left: 0;
+			background: url(../images/submit/proTime.png) no-repeat 0 0;
+			background-size: 80px 40px; 
+			font-size: 20px;
+			color: #fff;
+			text-align: center;
+			line-height: 30px;
+		}
+
+
+		.main .bottom{
+			width: 1100px;
+			margin:0 auto;
+		}
+		.main .bottom ul li{
+			
+			cursor: pointer;
+			float: left;
+			font-size: 14px;
+			background:url(../images/submit/negtive.png) no-repeat 0 8px;
+			color: #333;
+			height: 30px;
+			line-height: 30px;
+			padding-right: 30px;
+			padding-left: 25px;
+			font-weight: bold;
+		}
+		.main .bottom ul .selected{
+			color: #dd4012;
+			background:url(../images/submit/selected.png) no-repeat 0 8px;
+
+		}
+
+		#submitD{
+			width: 235px;
+			margin:35px auto 0 auto;
+		}
+		#submitD input{
+			outline: none;
+			cursor: pointer;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+			width: 235px;
+			height: 50px;
+			border:none;
+			background-color: #dd4012;
+			color: #fff;
+			line-height: 50px;
+
+		}
+
+		.main .content .left #serverType li{
+			cursor: pointer;
+			width: 217px;
+			border:2px solid #f0f1f1;
+			height: 40px;
+			line-height: 40px;
+			font-size: 15px;
+			padding-left: 18px;
+			margin-bottom: 15px;
+			color: #666;
+			font-family: "微软雅黑";
+			margin-right: 15px;
+			background:#dbdde1 url(../images/submit/checkWr.png) no-repeat 230px 16px;
+
+		}
+		.main .content .left #serverType .selected{
+			background:#dd4012 url(../images/submit/checkR.png) no-repeat 230px 16px;
+			color: #fff;
+
+
+		}
+		.main .content .left #serverType li:nth-child(2n){
+			width: 232px;
+			margin-right: 0;
+		}
+
+
+.allCover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1264px;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	
+}
+.allCover .box{
+	position: fixed;
+	width: 100%;
+	margin-top: 120px;
+}
+.allCover .submitBox{
+	position: relative;
+	width: 340px;
+	margin:0 auto;
+	background-color: #fff;
+}
+.allCover .submitBox div{
+	cursor: pointer;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	border-radius: 10px;
+	width: 20px;
+	height: 20px;
+	background: #dd4012 url(../images/submit/closeW.png) no-repeat 3px 3px;
+}
+.allCover .submitBox li{
+	width: 235px;
+	margin:0 auto;
+}
+.allCover .submitBox .bigTic{
+	width: 104px;
+	height: 78px;
+	margin:0 auto;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	background:url(../images/submit/checkMark.png) no-repeat 0 40px;
+}
+.allCover .submitBox .success{
+	color: #dd4012;
+	font-size: 26px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+.allCover .submitBox .word{
+	color: #dd4012;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+
+}
+.allCover .submitBox .inputTime input{
+	width: 216px;
+	height: 33px;
+	border:2px solid #dd4012;
+	margin-top: 35px;
+	padding-left: 15px;
+	color: #666;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+
+
+}
+.allCover .submitBox .sub input{
+	width: 235px;
+	height: 35px;
+	margin-top: 20px;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #dd4012;
+	outline: none;
+	border:none;
+	margin-bottom: 45px;
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部 */
+	footer{
+		border-top:1px solid #505050;
+		width: 100%;
+		height: 80px;
+		background:#323232;
+	}
+	footer .footBox{
+		background: url(../images/resource/bottomLogo.png) no-repeat 10px 18px;
+		padding-top: 18px;
+		width: 1100px;
+		height: 58px;
+		line-height: 22px;
+		margin:0 auto;
+	}
+	footer .footBox .left{
+		float: right;
+		padding-left: 300px;
+	}
+	footer .footBox .left li{
+		float: left;
+		margin-right: 10px;
+	}
+
+	footer .footBox .left li:nth-child(4){
+		margin-right: 20px;
+	}
+	footer .footBox .left li:nth-child(5){
+		margin-right: 0;
+	}
+
+	footer .footBox .right{
+		padding-left:100px; 
+		float: right;
+	}
+	footer .footBox .right li{
+		float: left;
+		margin-left: 10px;
+	}
+	footer .footBox .right li a{
+		color: #999;
+	}
+	footer .footBox .right li a:hover{
+		color: red;
+		text-decoration: underline;
+	}

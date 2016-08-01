@@ -1,0 +1,190 @@
+/* 首页样式 */
+
+/* 头部样式 */
+
+	header{
+		width: 100%;
+		height: 35px;
+		background: #323232;
+	}
+	.box{
+		position: relative;
+		width: 1100px;
+		margin:0 auto;
+	}
+	.box .left{
+		z-index: 10;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.box .right{
+		float: right;
+	}
+	.box .left .logo{
+		padding-top:73px; 
+		padding-left: 6px;
+		text-align: center;
+		letter-spacing: 2px;
+		font-family: '宋体';
+		font-size: 10px;
+		color: #ffac94;
+		background: #dd4012 url(../images/opinion/logo.png) no-repeat 10px 30px;
+		width: 174px;
+		height: 42px;
+	}
+
+	.box .list{
+		float: left;
+		line-height: 35px;
+		margin-left: 200px;
+	}
+	.box .list li{
+		float: left;
+		padding:0 15px;
+	}
+	.box .list li:nth-child(4){
+		background: #dd4012;
+	}
+	.box .list li:nth-child(4) a{
+		color: #fff;
+	}
+	.box .list li a{
+		color: #a6a6a6;
+	}
+	.box .list li a:hover{
+		color: #fff;
+		text-decoration: underline;
+	}
+	.box .list li:nth-child(4) a:hover{
+		color: #021312;
+		font-weight: bold;
+		text-decoration: underline;
+
+	}
+
+
+
+	.box .right>li{
+		height: 35px;
+		line-height: 35px;
+		float: right;
+
+	}
+	.box .right .tel{
+		width: 112px;
+		text-align: right;
+		padding-right: 5px;
+		background: url(../images/opinion/tel.png) no-repeat 0 9px;
+
+	}
+	.box .right>li ul{
+		height: 35px;
+		background: #none;
+		padding-right: 5px;
+	}
+	.box .right>li ul:hover{
+		background:#fff;
+	}
+	.box .right>li ul li{
+		padding-top: 5px;
+		float: left;
+		padding-left:18px;
+	}
+
+/* 主题部分 */
+	.main{
+		width: 100%;
+		background: #f0f1f1;
+
+	}
+
+/* 内容 */
+	.main .container{
+		width: 990px;
+		margin: 0 auto;
+		padding:60px;
+		background-color: #fff;
+	}
+	.main .container h1{
+		color: #000;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.main .container ul li{
+		line-height: 70px;
+	}
+	.main .container ul li:nth-child(1){
+		float: left;
+
+	}
+	.main .container ul li:nth-child(2){
+		float: right;
+
+	}
+	.main .container p{
+		padding-top: 35px;
+	}
+	.main .container .others li a{
+		color: #333;
+	}
+	.main .container .others li a:hover{
+		color: red;
+		text-decoration: underline;
+	}
+
+
+
+
+
+
+
+
+
+/* 底部 */
+	footer{
+		border-top:1px solid #505050;
+		width: 100%;
+		height: 80px;
+		background:#323232;
+	}
+	footer .footBox{
+		background: url(../images/cases/bottomLogo.png) no-repeat 10px 18px;
+		padding-top: 18px;
+		width: 1100px;
+		height: 58px;
+		line-height: 22px;
+		margin:0 auto;
+	}
+	footer .footBox .left{
+		float: right;
+		padding-left: 300px;
+	}
+	footer .footBox .left li{
+		float: left;
+		margin-right: 10px;
+	}
+
+	footer .footBox .left li:nth-child(4){
+		margin-right: 20px;
+	}
+	footer .footBox .left li:nth-child(5){
+		margin-right: 0;
+	}
+
+	footer .footBox .right{
+		padding-left:100px; 
+		float: right;
+	}
+	footer .footBox .right li{
+		float: left;
+		margin-left: 10px;
+	}
+	footer .footBox .right li a{
+		color: #999;
+	}
+	footer .footBox .right li a:hover{
+		color: red;
+		text-decoration: underline;
+	}

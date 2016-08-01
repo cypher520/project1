@@ -1,0 +1,156 @@
+body{
+	background: #f6f6f6;
+	font-family: 微软雅黑,arial;
+}
+.top{
+	width:100%;
+	background:#dd4b39;
+	height:45px;
+	text-align: center;
+}
+.top .img{
+    width:30px;
+    height:30px;
+    background: url(../images/3.png) no-repeat;
+    background-size:50%;
+    float:left;
+    margin:10px 0 0 10px;
+}
+.top p{
+	font-size: 20px;
+	line-height: 45px;
+	
+	color:#fff;
+}
+.top1{
+	height:105px;
+	width:100%;
+    background: -webkit-linear-gradient(-80deg ,#e6c9b2, #f0d9bc , #b8a589 ,#6b6f64);
+  
+}
+.top1 .img1{
+	height: 60px;
+	width:60px;
+	margin-top:20px;
+	margin-left:8%;
+	float:left;
+}
+.top1 img{
+	width: 100%;
+	height:100%;
+}
+.top1 .xm{
+	width: 50px;
+	height:50px;
+	color: #333333;
+	font-size:20px;
+	margin-top:40px;
+	float: left;
+	margin-left:8%;
+}
+.top1 .dz{
+	width: 100px;
+	height:30px; 
+	text-align: center;
+	background: #ffad0e;
+	border-radius: 5px;
+	float:left;
+	font-size: 15px;
+	line-height:30px; 
+	margin-left:3%;
+	margin-top:35px;
+}
+.top1 span{
+	color:#ff0000;
+    }
+.top2{
+	width:100%;
+	height:105px;
+	border-bottom:1px solid #ccc;
+}
+.top2 .one{
+	width:33%;
+	height: 75px;
+	text-align: center;
+	float:left;
+    margin:15px 0px; 
+	border-right:1px solid #ccc;
+}
+.top2 .one h4{
+	line-height:40px;
+	color:#666666;
+}
+
+.top2 .one .foot .img2{
+	height:30px;
+	width:30px;
+	float: left;
+	margin-left:15%;
+	margin-top:5px;
+}
+.top2 .one .foot img{
+	width:100%;
+	height:100%;
+}
+.top2 .one .foot p{
+	color:#ef6d6d;
+	margin-top:20px;
+	float:left;
+	margin-left:10px;
+}
+.top2 .two{
+	width:33%;
+	height: 75px;
+	text-align: center;
+	float:left;
+    margin:15px 0px; 
+	border-right:1px solid #ccc;
+}
+.top2 .two h4{
+	line-height:40px;
+	color:#666666;
+}
+.top2 .two .foot .img3{
+	height:30px;
+	width:30px;
+	float:left;
+	margin-left:15%;
+	margin-top:5px;
+}
+.top2 .two .foot img{
+	width:100%;
+	height:100%;
+}
+.top2 .two .foot p{
+	color:#ef6d6d;
+	margin-top:20px;
+	float:left;
+	margin-left:30px;
+}
+
+.top2 .three{
+	width:33%;
+	height: 75px;
+	text-align: center;
+	float:left;
+    margin:15px 0px; 
+	
+}
+.top2 .three h4{
+	line-height:40px;
+	color:#666666;
+}
+.top2 .three .foot .img4{
+	height:30px;
+	width:30px;
+	float:left;
+	margin-left:40%;
+	margin-top:5px;
+}
+.top2 .three .foot img{
+	width:100%;
+	height:100%;
+}
+
+
+

@@ -1,0 +1,175 @@
+/* index_css */
+body,html{
+	height: 100%;
+	background: #f6f6f6;
+}
+/* top */
+.top{
+	background: #dd4b39 url(../images/top_r.png) no-repeat 15px 14px;
+	background-size: 17px 25px;
+	width: 100%;
+	height: 54px;
+	text-align: center;
+	position: relative;
+}
+.top p{
+	color: #fff;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: 微软雅黑;
+	line-height: 54px;
+}
+.top div{
+	width:90px;
+	height: 54px;
+	background: #ef6452;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.top div a{
+	color: #fff;
+	font-size: 26px;
+	font-family: 微软雅黑;
+	line-height: 54px;
+}
+
+/* banner */
+.banner{
+	width: 100%;
+	height: 69px;
+	border-bottom: 1px solid #ccc;
+}
+.banner .box{
+	width: 55%;
+	margin:29px auto;
+}
+.banner .box li{
+	width:50%;
+	float: left;
+}
+.banner .box img{
+	margin-left: 20px;
+	width: 60px;
+}
+.banner .box li:nth-child(2){
+	color: #dd4b39;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+}
+
+
+/* main  */
+.main .u1{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+.main .u1 .u11{
+	width: 100%;
+	height: 60px;
+	margin-top: 80px;
+}
+.main .u1 .u11 li:nth-child(1){
+	height:60px;
+	line-height:60px;
+	color: #666;
+	width: 25%;
+	font-size: 26px;
+	font-family: 微软雅黑;
+	text-align: left;
+	float: left;
+}
+.main .u1 .u11 li:nth-child(2){
+	width: 70%;
+	height:60px;
+	float: right;
+}
+.main .u1 .u11 li input{
+	width: 100%;
+	height: 60px;
+}
+.main .u1 .u12{
+	width: 100%;
+	height: 60px;
+	margin-top:35px;
+}
+.main .u1 .u12 li:nth-child(1){
+	height: 60px;
+	line-height: 60px;
+	color: #666;
+	width: 25%;
+	font-size: 26px;
+	font-family: 微软雅黑;
+	text-align: left;
+	float: left;
+}
+.main .u1 .u12 li:nth-child(2){
+	width: 70%;
+	height:60px;
+	float: right;
+}
+.main .u1 .u12 li input{
+	width: 100%;
+	height: 60px;
+}
+.main .u1 .u13{
+	margin-top:60px;
+}
+.main .u1 .u13 li:nth-child(1){
+	width: 25%;
+	height: 20px;
+	text-align: right;
+	float: left;
+}
+.main .u1 .u13 li:nth-child(1) div{
+	display: inline-block;
+	width:22px;
+	height: 22px;
+	border:1px solid #ccc;
+	background: #e7e7e7;
+}
+.main .u1 .u13 li:nth-child(1) div img{
+	width: 20px;
+}
+.main .u1 .u13 li:nth-child(2){
+	width: 70%;
+	height:22px;
+	line-height: 22px;
+	font-size: 22px;
+	color: #666;
+	font-family: 微软雅黑;
+
+	float: right;
+}
+
+
+
+
+
+
+
+
+/* sbm  */
+.sbm{
+	position: absolute;
+	left: 20%;
+	bottom: 135px;
+	width: 60%;
+	height: 54px;
+
+}
+.sbm input{
+	width: 100%;
+	height: 100%;
+	line-height: 100%;
+	color:#fff;
+	font-size: 26px;
+	font-family: 微软雅黑;
+	background: #ff9c00;
+	border:none;
+}

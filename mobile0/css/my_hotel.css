@@ -1,0 +1,29 @@
+/* index_css */
+body,html{
+	height: 100%;
+	background: #f6f6f6;
+}
+/* top */
+.top{
+	background: #dd4b39 url(../images/top_r.png) no-repeat 8px 10px;
+	background-size: 12px 19px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	position: relative;
+}
+.top p{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 微软雅黑;
+	line-height: 40px;
+}
+.banner{
+	width: 100%;
+	height: 90px;
+	background: -webkit-linear-gradient(left top,#e3c7b0,#ecd0b4,#efd7ba,#c1af90,#9b967e,#6c6f66);
+	background: -moz-linear-gradient(bottom right,#e3c7b0,#ecd0b4,#efd7ba,#c1af90,#9b967e,#6c6f66);
+	background: -o-linear-gradient(bottom right,#e3c7b0,#ecd0b4,#efd7ba,#c1af90,#9b967e,#6c6f66);
+	background: linear-gradient(to bottom right, #e3c7b0,#ecd0b4,#efd7ba,#c1af90,#9b967e,#6c6f66);
+}
